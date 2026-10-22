@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vetclinicaes.dokufolio.com/sitemap.xml
