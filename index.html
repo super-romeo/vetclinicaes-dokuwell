@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Para clínicas veterinarias pequeñas: la historia clínica se completa en la consulta y la factura sale de lo registrado, sin volver a escribir.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Consulta Cerrada</a></div>
-  <nav class="top"><a href="#que" data-ev="click_nav_que">Qué obtienes</a><a href="price.html" data-ev="click_nav_precio">Precio</a><a href="#ejemplo" data-ev="click_nav_ejemplo">Ejemplo</a><a href="#start" data-ev="click_nav_start">Empezar</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Consulta Cerrada</a>
+  <nav><a href="#que" data-ev="click_nav_que">Qué obtienes</a><a href="price.html" data-ev="click_nav_precio">Precio</a><a href="#ejemplo" data-ev="click_nav_ejemplo">Ejemplo</a><a href="#start" data-ev="click_nav_start">Empezar</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>La historia clínica de cada consulta — y la factura sale de ella, sin escribir nada dos veces</h1>
-    <p class="sub">Para clínicas veterinarias de un centro con uno o pocos veterinarios: ficha del animal y del propietario, anamnesis, exploración, diagnóstico, tratamiento y medicamentos durante la consulta, y al cerrarla la factura ya tiene todos los servicios.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Lo necesito</a>
-    <p class="cta-note">Servicio en preparación · En esta página no se acepta ningún pago</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Para clínicas veterinarias de un centro</p>
+      <h1 class="rise" style="--i:1" data-len="long">La historia clínica de cada consulta&nbsp;<span class="soft">— y la factura sale de ella, sin escribir nada dos veces</span></h1>
+      <p class="rise" style="--i:2">Para clínicas veterinarias de un centro con uno o pocos veterinarios: ficha del animal y del propietario, anamnesis, exploración, diagnóstico, tratamiento y medicamentos durante la consulta, y al cerrarla la factura ya tiene todos los servicios.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Lo necesito</a>
+      <p class="meta rise" style="--i:4">Servicio en preparación · En esta página no se acepta ningún pago</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="158" font-size="36" fill="#0a1524" font-weight="600">Consulta Cerrada</text><line x1="120" y1="204" x2="1080" y2="204" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="246" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="280" font-size="30" fill="#0a1524">Ficha</text><rect x="120" y="358" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="392" font-size="30" fill="#0a1524">Historia clínica</text><rect x="120" y="470" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="504" font-size="30" fill="#0a1524">Factura</text><rect x="730" y="250" width="340" height="410" fill="#dfe8f7" rx="20" /><text x="760" y="318" font-size="32" fill="#0a1524" font-weight="600">Recordatorios</text><rect x="770" y="450" width="46" height="150" fill="#ffffff" rx="8" /><rect x="840" y="500" width="46" height="100" fill="#ffffff" rx="8" /><rect x="910" y="390" width="46" height="210" fill="#12397a" rx="8" /><rect x="980" y="520" width="46" height="80" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Para</dt><dd>Clínicas veterinarias</dd></div>
+      <div><dt>Historia</dt><dd>Historia clínica</dd></div>
+      <div><dt>Factura</dt><dd>Pasa directamente a la factura</dd></div>
+      <div><dt>Servicio</dt><dd>Servicio en preparación</dd></div>
+    </dl>
+  </section>
 
   <section id="que" data-view="features_view">
-    <h2>Qué obtienes</h2>
-    <div class="grid">
-      <div class="card"><b>Ficha del paciente</b><span>Animal, propietario, antecedentes y todas las consultas.</span><br><a class="btn" href="price.html" data-ev="feature_ficha">Lo necesito</a></div>
-      <div class="card"><b>Historia clínica</b><span>Anamnesis, exploración, diagnóstico, tratamiento, fotos y analíticas.</span><br><a class="btn" href="price.html" data-ev="feature_historia">Lo necesito</a></div>
-      <div class="card"><b>Factura de la consulta</b><span>Servicios y medicamentos pasan solos a la factura.</span><br><a class="btn" href="price.html" data-ev="feature_factura">Lo necesito</a></div>
-      <div class="card"><b>Recordatorios</b><span>Vacunas y revisiones avisadas al propietario.</span><br><a class="btn" href="price.html" data-ev="feature_recordatorios">Lo necesito</a></div>
+    <div class="stack"><h2>Qué obtienes</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Ficha del paciente</text><text x="110" y="196" font-size="28" fill="#566174">Animal</text><circle cx="640" cy="128" r="34" fill="#dfe8f7" /><polyline points="624,128 634,142 656,112" fill="none" stroke="#12397a" stroke-width="4" /><rect x="110" y="250" width="400" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="308" width="280" height="22" fill="#b9c3d2" rx="8" /><rect x="110" y="366" width="340" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="424" width="220" height="22" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Ficha del paciente</h3><p>Animal, propietario, antecedentes y todas las consultas.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_ficha">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Historia clínica</text><rect x="110" y="196" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,218 128,228 144,208" fill="none" stroke="#12397a" stroke-width="4" /><text x="174" y="228" font-size="30" fill="#0a1524">Anamnesis</text><rect x="110" y="272" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,294 128,304 144,284" fill="none" stroke="#12397a" stroke-width="4" /><rect x="174" y="284" width="320" height="18" fill="#dde2ea" rx="8" /><rect x="110" y="348" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,370 128,380 144,360" fill="none" stroke="#12397a" stroke-width="4" /><rect x="174" y="360" width="250" height="18" fill="#dde2ea" rx="8" /><rect x="110" y="424" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="174" y="436" width="320" height="18" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Historia clínica</h3><p>Anamnesis, exploración, diagnóstico, tratamiento, fotos y analíticas.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_historia">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Factura</text><text x="110" y="192" font-size="28" fill="#566174">medicamentos</text><line x1="140" y1="470" x2="640" y2="470" stroke="#b9c3d2" stroke-width="3" /><rect x="160" y="360" width="64" height="110" fill="#dfe8f7" rx="8" /><rect x="280" y="300" width="64" height="170" fill="#dfe8f7" rx="8" /><rect x="400" y="384" width="64" height="86" fill="#dfe8f7" rx="8" /><rect x="520" y="270" width="64" height="200" fill="#12397a" rx="8" /></svg></div>
+        <h3>Factura de la consulta</h3><p>Servicios y medicamentos pasan solos a la factura.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_factura">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Recordatorios</text><rect x="110" y="186" width="560" height="76" fill="#dfe8f7" rx="28" stroke="#dde2ea" stroke-width="3" /><circle cx="156" cy="224" r="14" fill="#12397a" /><text x="188" y="234" font-size="30" fill="#0a1524">Vacunas</text><rect x="110" y="290" width="560" height="76" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /><circle cx="156" cy="328" r="14" fill="#b9c3d2" /><text x="188" y="338" font-size="30" fill="#0a1524">revisiones</text></svg></div>
+        <h3>Recordatorios</h3><p>Vacunas y revisiones avisadas al propietario.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_recordatorios">Lo necesito</a>
+      </article>
     </div>
   </section>
 
-  <section id="ejemplo" data-view="example_view">
-    <h2>Ejemplo (datos ficticios)</h2>
-    <p class="fine">Clínica con dos veterinarias y una auxiliar. Llega un gato con vómitos: anamnesis, exploración, analítica y tratamiento se registran durante la consulta. Al cerrarla, la factura ya incluye consulta, analítica y medicamento, y la revisión de dentro de una semana queda programada con aviso al propietario.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Elegir plan</a>
+  <section id="ejemplo" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Ejemplo</h2>
+      <p>Clínica con dos veterinarias y una auxiliar. Llega un gato con vómitos: anamnesis, exploración, analítica y tratamiento se registran durante la consulta. Al cerrarla, la factura ya incluye consulta, analítica y medicamento, y la revisión de dentro de una semana queda programada con aviso al propietario.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Elegir plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="180" y1="150" x2="1020" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><rect x="90" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="240" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">gato</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><rect x="450" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="600" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">consulta</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><rect x="810" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="960" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">factura</text><rect x="120" y="290" width="960" height="430" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="370" font-size="36" fill="#0a1524" font-weight="600">una semana</text><text x="170" y="440" font-size="30" fill="#566174">propietario</text><rect x="170" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="270" y="510" width="64" height="64" fill="#12397a" rx="10" /><rect x="370" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="470" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="570" y="510" width="64" height="64" fill="#12397a" rx="10" /><rect x="670" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Cómo funciona</h2>
-    <p>En una clínica veterinaria pequeña, cada consulta se registra dos veces: una en la historia clínica y otra en la factura. Lo que la veterinaria anota en la ficha hay que volver a introducirlo en recepción como servicio, y lo que se olvida en ese paso no se cobra.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Cómo funciona</h2></div>
+    <div class="stack">
+      <p>En una clínica veterinaria pequeña, cada consulta se registra dos veces: una en la historia clínica y otra en la factura. Lo que la veterinaria anota en la ficha hay que volver a introducirlo en recepción como servicio, y lo que se olvida en ese paso no se cobra.</p>
     <p>Muchas clínicas trabajan con una mezcla de fichas en papel, hojas de cálculo y un programa de facturación aparte. Encontrar los antecedentes de un animal lleva tiempo, los medicamentos dispensados se apuntan después, y a final de mes hay servicios en las historias que no aparecen en ninguna factura.</p>
     <p>El programa une historia clínica y factura. Cada animal tiene su ficha con el propietario, la especie, la raza, la edad, el peso, las enfermedades previas y todas las consultas anteriores. En la siguiente visita todo está a la vista.</p>
     <p>Durante la consulta se registran la anamnesis, la exploración, el diagnóstico y el tratamiento, con fotos, radiografías o resultados de laboratorio adjuntos, y los medicamentos aplicados o dispensados. Las entradas habituales se guardan como plantilla y se añaden con un clic.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Un paciente nuevo se da de alta con su propietario en un minuto. Los datos antiguos de hojas de cálculo se pueden importar al empezar, para no perder los antecedentes de los pacientes habituales.</p>
     <p>La puesta en marcha lleva una tarde: tarifa de servicios con precios, medicamentos habituales y plantillas de consultas frecuentes. El programa funciona en el navegador del ordenador, la tablet o el móvil, sin instalación.</p>
     <p>El programa está pensado para clínicas veterinarias pequeñas de un centro en España. Está en preparación: primero comprobamos si las clínicas lo necesitan. La clínica sigue siendo responsable de sus historias clínicas, registros y facturas.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Preguntas frecuentes</h2>
-    <h3>¿Para quién es el programa?</h3>
-    <p>Para clínicas veterinarias pequeñas de un centro en España, con uno o pocos veterinarios.</p>
-    <h3>¿Hay que escribir los servicios dos veces?</h3>
-    <p>No. Lo que se registra en la consulta pasa directamente a la factura.</p>
-    <h3>¿Se pueden adjuntar radiografías y analíticas?</h3>
-    <p>Sí, fotos, radiografías y resultados se guardan en la ficha del animal.</p>
-    <h3>¿Hay que instalar algo?</h3>
-    <p>No, funciona en el navegador del ordenador, la tablet o el móvil.</p>
-    <h3>¿Puedo usarlo ya?</h3>
-    <p>Todavía no. El programa está en preparación y estamos comprobando si las clínicas lo necesitan.</p>
+    <div class="stack"><h2>Preguntas frecuentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>¿Para quién es el programa?</h3><p>Para clínicas veterinarias pequeñas de un centro en España, con uno o pocos veterinarios.</p></div>
+      <div class="split flip"><h3>¿Hay que escribir los servicios dos veces?</h3><p>No. Lo que se registra en la consulta pasa directamente a la factura.</p></div>
+      <div class="split flip"><h3>¿Se pueden adjuntar radiografías y analíticas?</h3><p>Sí, fotos, radiografías y resultados se guardan en la ficha del animal.</p></div>
+      <div class="split flip"><h3>¿Hay que instalar algo?</h3><p>No, funciona en el navegador del ordenador, la tablet o el móvil.</p></div>
+      <div class="split flip"><h3>¿Puedo usarlo ya?</h3><p>Todavía no. El programa está en preparación y estamos comprobando si las clínicas lo necesitan.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dé de alta su clínica</h2>
-    <p><label>Veterinarios en la clínica<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— elige —</option><option>1</option><option>2–3</option><option>4–6</option><option>Más de 6</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Empezar</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dé de alta su clínica</h2>
+    </div>
+    <div class="tile stack">
+      <label>Veterinarios en la clínica<select data-ev-focus="form_start"><option value="">— elige —</option><option>1</option><option>2–3</option><option>4–6</option><option>Más de 6</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Empezar</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Consulta Cerrada</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacidad</a></p>
-  <p class="muted">Programa para las historias clínicas y facturas de su clínica. La clínica sigue siendo responsable de sus registros y facturas.</p>
+  <p>Programa para las historias clínicas y facturas de su clínica. La clínica sigue siendo responsable de sus registros y facturas.</p>
 </div></footer>
 
 </body>
